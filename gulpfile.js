@@ -27,6 +27,9 @@ gulp.task('less', function() {
         }))
 });
 
+
+//Modificamos una linea de texto en el archivo gulofile.js
+
 // Minify compiled CSS
 gulp.task('minify-css', ['less'], function() {
     return gulp.src('css/freelancer.css')
